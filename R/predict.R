@@ -63,7 +63,7 @@
 #' @export
 
 ### Implementation ####
-predict.LiblineaR<-function(object, newx, proba=FALSE, decisionValues=FALSE,...){
+predict_LiblineaR<-function(object, newx, proba=FALSE, decisionValues=FALSE,...){
     
     # <Arg preparation>
     
